@@ -1,0 +1,43 @@
+.VideoCard{
+    display: flex;
+    width: 38vmax;
+    height: 48vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 1vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+/* .VideoCard:hover{
+    box-shadow: 0px 6px 15px rgba(53,53,53,0.363);
+    transform: translateY(-0.4vmax);
+} */
+
+
+.VideoCard a{
+    padding: 2.5vmax;
+    transition: all 0.5s;
+    border: none;
+    border-radius: 100%;
+}
+.VideoCard a>svg{
+    fill: white;
+    width: 10vmax;
+    height: 5vmax;
+    opacity: 0.5;
+}
+.VideoCard:hover a>svg{
+    fill: white;
+    
+    opacity: 1;
+}
+
+.VideoCard p{
+    color: white;
+    margin: 1vmax;
+}
